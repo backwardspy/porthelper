@@ -1,0 +1,13 @@
+[package]
+name = "porthelper"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+catppuccin = { version = "1.2.1", features = ["css"] }
+clap = { version = "4.1.2", features = ["derive"] }
+color-eyre = "0.6.2"
+handlebars = "4.3.6"
+serde = { version = "1.0.152", features = ["derive"] }
+serde_json = "1.0.91"
+titlecase = "2.2.1"
